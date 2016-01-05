@@ -120,8 +120,9 @@ a:hover.icon-contanier{
 	position: relative;
 	font-size: 13px;
 }
-.down{
-	background: url('../images/down.png') no-repeat center;
+
+.up{
+	background: url('../images/up.png') no-repeat center;
 	position: absolute;
 	right: 5px;
 	top: 5px;
@@ -129,8 +130,8 @@ a:hover.icon-contanier{
 	height: 20px;
 	cursor: pointer;
 }
-.up{
-	background: url('../images/up.png') no-repeat center;
+.down{
+	background: url('../images/down.png') no-repeat center;
 	position: absolute;
 	right: 5px;
 	top: 5px;
@@ -142,6 +143,7 @@ a:hover.icon-contanier{
 	padding: 10px 30px;
 	font-size: 13px;
 	background: #EBE8E8;
+	border-top: solid 1px #D8D8D8;
 }
 .package{
 	color: #FF8200;
