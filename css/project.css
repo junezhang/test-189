@@ -178,7 +178,6 @@ a:hover.icon-contanier{
 }
 .tip-detail{
 	padding: 10px 30px;
-	font-size: 13px;
 	background: #EBE8E8;
 	border-top: solid 1px #D8D8D8;
 }
@@ -186,7 +185,7 @@ a:hover.icon-contanier{
 	width: calc(100%-50px);
 	overflow: hidden;
 	white-space:nowrap;
-
+	font-size: 13px;
 }
 .package{
 	color: #FF8200;
