@@ -65,7 +65,7 @@ a:hover.icon-contanier{
 	color: #FF8200;
 }
 .icon-contanier{
-	width: 40px;
+	width: 36px;
 	text-align: center;
 }
 .icon{
@@ -76,7 +76,7 @@ a:hover.icon-contanier{
 }
 .icon-text{
 	margin-top: 5px;
-	font-size: 13px;
+	font-size: 12px;
 }
 .liuliang{
 	background-image: url('../images/liuliang-icon.png');
