@@ -200,7 +200,7 @@ a:hover.icon-contanier{
     font-size: 15px;
     left: 50%;
     margin-left: -150px;
-    margin-top: -50px;
+    margin-top: -80px;
     min-height: 100px;
     position: absolute;
     top: 50%;
@@ -246,22 +246,20 @@ a:hover.icon-contanier{
 	.ad{
 		display: none !important;
 	}
-	.icon-contanier:nth-child(2){
-		display: none !important;
-	}
+	
 }
 @media (max-width: 768px) {
-	a.icon-contanier:nth-child(2){
+	.ad{
 		display: inline-block !important;
 	}
 }
 @media (max-width: 992px) {
-	a.icon-contanier:nth-child(2){
+	.ad{
 		display: inline-block !important;
 	}
 }
 @media (max-width: 1200px) {
-	a.icon-contanier:nth-child(2){
+	.ad{
 		display: inline-block !important;
 	}
 }
