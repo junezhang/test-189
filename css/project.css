@@ -160,23 +160,3 @@ a:hover.icon-contanier{
 	cursor: pointer;
 }
 
-@media (max-width: 468px) {
-	.ad{
-		display: none !important;
-	}
-}
-@media (min-width: 768px) {
-	.ad{
-		display: inline-block !important;
-	}
-}
-@media (min-width: 992px) {
-	.ad{
-		display: inline-block !important;
-	}
-}
-@media (min-width: 1200px) {
-	.ad{
-		display: inline-block !important;
-	}
-}
