@@ -34,7 +34,7 @@
 				<div class="icon-text">＋流量</div>
 			</a>
 
-			<a href='#' class='icon-contanier'>
+			<a href='#' class='icon-contanier' id='setting2'>
 				<div class="icon cz">
 				</div>
 				<div class="icon-text">充值</div>
@@ -90,6 +90,30 @@
 		</div>
 	</div>
 
+	<div class="popup-container" style='display:none' id='popup2'>
+		<div class="popup">
+			<div class="popup-title">
+				江苏移动提示：流量告急
+			</div>
+			<div class="popup-content">
+				<p>
+					报告主人！
+				</p>
+				<p>
+					您的流量只剩475.0M，不足11%了，建议您关注 <span class='package'>30元400M全国流量加餐包</span>。
+					<br>
+					<a href="#">详情查看</a>
+				</p>
+				<p><label for="box5"><input id='box5' type="checkbox">本月不再提示</label></p>
+
+			</div>
+			<div class="popup-button">
+				<div class="cancle" id='cancle2'>下次再说</div>
+				<div class="submit" id='submit2'>订购流量包</div>
+			</div>
+		</div>
+	</div>
+
 </div>
 
 <script src='js/jquery-1.11.3.min.js'></script>
@@ -113,6 +137,17 @@
 		})
 		$('#submit').click(function() {
 		  $('#popup').hide();
+		})
+
+		$('#setting2').click(function() {
+		  $('#popup2').show();
+		})
+
+		$('#cancle2').click(function() {
+		  $('#popup2').hide();
+		})
+		$('#submit2').click(function() {
+		  $('#popup2').hide();
 		})
 
 

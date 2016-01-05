@@ -210,6 +210,10 @@ a:hover.icon-contanier{
     top: 50px;
     z-index: 1111;
     border-radius: 5px;
+    width: 300px;
+}
+.popup p{
+	line-height: 25px;
 }
 .popup-title{
 	border-bottom: solid 1px #ccc;
@@ -246,6 +250,9 @@ a:hover.icon-contanier{
 	background: #FF8200;
 	border-bottom-right-radius: 5px;
 	color: white;
+}
+a:link,a:visited{
+	color: #4097F0;
 }
 
 @media (max-width: 360px) {
