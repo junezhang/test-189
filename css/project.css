@@ -72,6 +72,7 @@ a:hover.icon-contanier{
 	height: 25px;
 	border-radius: 5px;
 	background: #FF8200;
+	position: relative;
 }
 .icon-text{
 	margin-top: 5px;
@@ -97,7 +98,29 @@ a:hover.icon-contanier{
 	background-repeat: no-repeat;
 	background-position: center;
 }
-
+.plus{
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	width: 10px;
+	height: 10px;
+	background: #FF8200 url('../images/plus.png') center center no-repeat;
+	border-radius: 5px;
+}
+.notification{
+	position: absolute;
+	right: -6px;
+	top: -3px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	background: #ff4542;
+	border-radius: 8px;
+	opacity: 0.9;
+	color: white;
+	font-size: 10px;
+}
 .progressbar{
 	height: 6px;
 	background: #D8D8D8;
@@ -157,5 +180,30 @@ a:hover.icon-contanier{
 	width: 100px;
 	display: block;
 	cursor: pointer;
+}
+
+
+@media (max-width: 368px) {
+	.ad{
+		display: none !important;
+	}
+	.icon-contanier:nth-child(2){
+		display: none !important;
+	}
+}
+@media (max-width: 768px) {
+	a.icon-contanier:nth-child(2){
+		display: inline-block !important;
+	}
+}
+@media (max-width: 992px) {
+	a.icon-contanier:nth-child(2){
+		display: inline-block !important;
+	}
+}
+@media (max-width: 1200px) {
+	a.icon-contanier:nth-child(2){
+		display: inline-block !important;
+	}
 }
 
