@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head lang='en'>
+	<meta charset='UTF-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>欢Go｜中国电信</title>
+	<link rel="stylesheet" type="text/css" href="css/project.css">
+
+</head>
+<body>
+<div class='module'>
+	<div class="banner">
+		<div class="logo"></div>
+		<div class='analysis'>
+			<div class="remain">
+				<span>剩</span> <span class='remain-data'>444M</span>
+			</div>
+			<div class="used">
+				<span>用</span> <span class='used-data'>1444M</span>
+			</div>	
+		</div>	
+		<div class="ad">
+			<div class="ad-container">
+				<img src="images/ad.png">
+			</div>
+		</div>
+		<div class="icons">
+			<a href='#' class='icon-contanier'>
+				<div class="icon liuliang">
+					<div class="plus"></div>
+				</div>
+				<div class="icon-text">＋流量</div>
+			</a>
+
+			<a href='#' class='icon-contanier'>
+				<div class="icon cz">
+					<div class="plus"></div>
+				</div>
+				<div class="icon-text">充值</div>
+			</a> 
+
+			<a href="#" class='icon-contanier'>
+				<div class="icon xx">
+					<div class="plus"></div>
+				</div>
+				<div class="icon-text">消息</div>
+			</a>
+
+			<a href="#" class='icon-contanier'>
+				<div class="icon sz">
+					<div class="plus"></div>
+				</div>
+				<div class="icon-text">设置</div>
+			</a>                           
+		</div>
+	</div>	
+
+	<div class="progressbar">
+		<div class="progressbar-used"></div>
+	</div>
+
+	<div class="tip" id='needtoshow'>
+		有一种痛叫流浪不够用，推荐 <span class='package'>30元400M加餐包</span> 
+		<div class="down" id='showicon'></div>
+	</div>
+	<div class="tip-detail" style='display:none'>
+		亲，根据您的流量使用情况，为您推荐<span class='package'>30元400M加餐包</span>（立即生效，全国可用，本月有效）。
+		<a href="#">换一个 <img src="images/refresh.png"></a>
+		<div class="order-button">立即订购</div>
+	</div>
+</div>
+
+<script src='js/jquery-1.11.3.min.js'></script>
+<script>
+	$(function(){
+    	$('#needtoshow').click(function() {
+		  $('.tip-detail').show();
+		  $('#showicon').addClass("up").removeClass("down");
+		})
+    });
+	</script>
+</script>
+</body>
+</html>
