@@ -155,7 +155,6 @@ a:hover.icon-contanier{
 	padding:0 30px;
 	background: url('../images/ic_face.png') #EBE8E8 no-repeat 10px center;
 	position: relative;
-	font-size: 13px;
 }
 
 .up{
@@ -180,6 +179,7 @@ a:hover.icon-contanier{
 	padding: 10px 30px;
 	background: #EBE8E8;
 	border-top: solid 1px #D8D8D8;
+	font-size: 13px;
 }
 .tip-content{
 	width: calc(100%-50px);
