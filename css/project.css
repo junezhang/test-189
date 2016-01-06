@@ -24,7 +24,8 @@ body{
 .banner{
 	padding: 0 0 0 3px;
 	height: 48px;
-	display: flex;
+	display: -webkit-flex !important;
+	display: flex !important;
   flex-flow: row wrap;
   align-items: stretch;
   justify-content: space-between;
@@ -74,6 +75,7 @@ body{
 	float: right;
 	min-width: 144px;
 	width: 40%;
+	display: -webkit-flex !important;
 	display: flex !important;
   	flex-flow: row wrap;
   	align-items: stretch;
