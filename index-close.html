@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head lang='en'>
+	<meta charset='UTF-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>欢Go｜中国电信</title>
+	<link rel="stylesheet" type="text/css" href="css/project.css">
+
+</head>
+<body>
+<div class='module'>
+	<div class="banner">
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+		<div class='analysis'>
+			<div class="analysis-container">
+				<div class="remain">
+					<span>剩</span> <span class='remain-data'>444M</span>
+				</div>
+				<div class="used">
+					<span>用</span> <span class='used-data'>1444M</span>
+				</div>
+			</div>
+		</div>	
+		<div class="ad">
+			<img src="images/ad.png">
+		</div>
+		<div class="icons">
+			<a href='#'>
+				<div class="icon-contanier">
+					<div class="icon liuliang">
+						<div class="plus"></div>
+					</div>
+					<div class="icon-text">＋流量</div>
+				</div>
+			</a>
+
+			<a href='#' id='setting2'>
+				<div class="icon-contanier">
+					<div class="icon cz">
+					</div>
+					<div class="icon-text">充值</div>
+				</div>
+			</a> 
+
+			<a href="#">
+				<div class="icon-contanier">
+					<div class="icon xx">
+						<div class="notification">33</div>
+					</div>
+					<div class="icon-text">消息</div>
+				</div>
+			</a>                        
+		</div>
+
+		<div class="close" id='setting'></div>
+	</div>	
+
+	<div class="progressbar">
+		<div class="progressbar-used"></div>
+	</div>
+
+	<div class="tip" id='needtoshow'>
+		<div class="tip-content">有一种痛叫流浪不够用，推荐 <span class='package'>30元400M加餐包</span></div>
+		 
+		<div class="up down" id='showicon'></div>
+	</div>
+	<div class="tip-detail" style='display:none'>
+		亲，根据您的流量使用情况，为您推荐<span class='package'>30元400M加餐包</span>（立即生效，全国可用，本月有效）。
+		<a href="#">换一个 <img src="images/refresh.png"></a>
+		<div class="order-button">立即订购</div>
+	</div>
+
+	<div class="popup-container" style='display:none' id='popup'>
+		<div class="popup">
+			<div class="popup-title">
+				设置
+			</div>
+			<div class="popup-content">
+				<ul>
+					<li><label for="box1"><input id='box1' type="checkbox">本次关闭</label></li>
+					<li><label for="box2"><input id='box2' type="checkbox">本周关闭</label></li>
+					<li><label for="box3"><input id='box3' type="checkbox">本月关闭</label></li>
+					<li><label for="box4"><input id='box4' type="checkbox">本年关闭</label></li>
+				</ul>
+			</div>
+			<div class="popup-button">
+				<div class="cancle" id='cancle'>下次再说</div>
+				<div class="submit" id='submit'>保存设置</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup-container" style='display:none' id='popup2'>
+		<div class="popup">
+			<div class="popup-title">
+				江苏移动提示：流量告急
+			</div>
+			<div class="popup-content">
+				<p>
+					报告主人！
+				</p>
+				<p>
+					您的流量只剩475.0M，不足11%了，建议您关注 <span class='package'>30元400M全国流量加餐包</span>。
+					<br>
+					<a href="#">详情查看</a>
+				</p>
+				<p><label for="box5"><input id='box5' type="checkbox">本月不再提示</label></p>
+
+			</div>
+			<div class="popup-button">
+				<div class="cancle" id='cancle2'>下次再说</div>
+				<div class="submit" id='submit2'>订购流量包</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<script src='js/jquery-1.11.3.min.js'></script>
+<script>
+	$(function(){
+    	//$('#needtoshow').click(function() {
+		 // $('.tip-detail').show();
+		//  $('#showicon').addClass("up").removeClass("down");
+		//})
+		$('#showicon').click(function() {
+		  $('.tip-detail').toggle();
+		  $( "#showicon" ).toggleClass("down");
+		})
+
+		$('#setting').click(function() {
+		  $('#popup').show();
+		})
+
+		$('#cancle').click(function() {
+		  $('#popup').hide();
+		})
+		$('#submit').click(function() {
+		  $('#popup').hide();
+		})
+
+		$('#setting2').click(function() {
+		  $('#popup2').show();
+		})
+
+		$('#cancle2').click(function() {
+		  $('#popup2').hide();
+		})
+		$('#submit2').click(function() {
+		  $('#popup2').hide();
+		})
+
+
+    });
+
+    function box(objName){
+if(objName.value==0){
+objName.value=1;
+objName.checked=true;}
+else{
+objName.value=0;
+objName.checked=false;}
+}
+	</script>
+</script>
+</body>
+</html>
