@@ -25,20 +25,24 @@ body{
 	padding: 0 0 0 3px;
 	height: 48px;
 	display: -webkit-flex !important;
-	display: flexbox !important;
-  flex-flow: row wrap;
-  align-items: stretch;
-  justify-content: space-between;
+	display: flex !important;
+  	flex-flow: row wrap;
+  	align-items: stretch;
+  	justify-content: space-between;
 }
 
 .logo img{
 	width: 50px;
 }
 .analysis{
-	width: 60px;
+	width: 20%;
 	margin-left: 0px;
 	font-size: 13px;
 	margin-top: 5px;
+}
+
+.analysis-container{
+	width: 60px;
 }
 .analysis .remain{
 	color: #62C751;
@@ -74,7 +78,7 @@ body{
 .icons{
 	float: right;
 	min-width: 144px;
-	width: 40%;
+	width: 50%;
 	display: -webkit-flex !important;
 	display: flex !important;
   	flex-flow: row wrap;
@@ -86,12 +90,13 @@ body{
 {
 	display: inline-block;
 }
-a:link.icon-contanier,
-a:visited.icon-contanier{
+.icons a:link,
+.icons a:visited{
 	color: #222;
 	text-decoration: none;
+	width: 25%;
 }
-a:hover.icon-contanier{
+.icons a:hover{
 	color: #FF8200;
 }
 .icon-contanier{
