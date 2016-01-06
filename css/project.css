@@ -41,7 +41,7 @@ body{
 	width: 20%;
 	margin-left: 0px;
 	font-size: 13px;
-	margin-top: 5px;
+	margin-top: 8px;
 }
 
 .analysis-container{
@@ -225,68 +225,6 @@ body{
 	display: block;
 	cursor: pointer;
 }
-
-.popup-container{
-    background: rgba(0,0,0,0.7);
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1000; 
-}
-.popup{
-    background: white;
-    color: black;
-    font-size: 15px;
-    left: 50%;
-    margin-left: -150px;
-    min-height: 100px;
-    position: absolute;
-    top: 50px;
-    z-index: 1111;
-    border-radius: 5px;
-    width: 300px;
-}
-.popup p{
-	line-height: 25px;
-}
-.popup-title{
-	border-bottom: solid 1px #ccc;
-	height: 50px;
-	line-height: 50px;
-	padding-left: 10px;
-}
-.popup-content{
-	padding: 10px;
-}
-.popup ul li{
-	list-style: none;
-	padding: 5px 0;
-}
-.popup-button{
-	width: 100%;
-}
-.popup-button div{
-	width: 150px;
-	text-align: center;
-	height: 50px;
-	line-height: 50px;
-	border: none;
-	display: inline-block;
-	float: left;
-	cursor: pointer;
-}
-.popup-button div.cancle{
-	background: #D8D8D8;
-	border-bottom-left-radius: 5px;
-	color: #4A4A4A;
-}
-.popup-button div.submit{
-	background: #FF8200;
-	border-bottom-right-radius: 5px;
-	color: white;
-}
 a:link,a:visited{
 	color: #4097F0;
 }
@@ -295,5 +233,12 @@ a:link,a:visited{
 	.ad{
 		display: none !important;
 	}
-	
+	.logo,
+	.analysis,
+	.ad,
+	.icons
+	{
+	width: auto;
+	}
+
 }
