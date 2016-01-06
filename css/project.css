@@ -98,7 +98,14 @@ body{
 	color: #222;
 	text-decoration: none;
 	width: 25%;
+	text-align:center;
 }
+
+.closed .icons a:link,
+.closed .icons a:visited{
+	width: 33%
+}
+
 .icons a:hover{
 	color: #FF8200;
 }
@@ -300,7 +307,7 @@ body{
 a:link,a:visited{
 	color: #4097F0;
 }
-
+/*
 @media (max-width: 360px) {
 	.ad{
 		display: none !important;
@@ -313,4 +320,4 @@ a:link,a:visited{
 	width: auto;
 	}
 
-}
+}*/
