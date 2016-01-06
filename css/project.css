@@ -2,10 +2,13 @@ body{
 	margin: 0;
 	padding: 0;
 }
+*{
+	box-sizing:border-box;
+}
 .module{
 	margin: 3px 0 0 0;
 	padding: 0;
-	box-sizing:border-box;
+	
 }
 .banner div,
 .analysis span{
@@ -22,20 +25,16 @@ body{
 	padding: 0 0 0 3px;
 	height: 48px;
 }
-.logo{
-	height: 50px;
-	width: 100px;
-	line-height: 50px;
-	background: url('../images/logo.png') no-repeat center;
+.logo img{
+	width: 50px;
 }
 .analysis{
-	width: 100px;
-	margin-left: 10px;
-	font-size: 15px;
+	width: 60px;
+	margin-left: 0px;
+	font-size: 13px;
 	margin-top: 5px;
 }
 .analysis .remain{
-	border-bottom: solid 1px #979797;
 	color: #62C751;
 }
 .analysis .used{
@@ -47,9 +46,24 @@ body{
 	margin-left: 5px;
 }
 .ad{
-
+	width: calc(100% - 280px);
 }
-
+.ad-container{
+	border-radius: 5px;
+	background: #FFBA24;
+	color: white;
+	padding: 5px 0;
+	width: 100%;
+}
+.ad-box{
+	width: 100%;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 13px;
+}
 .icons{
 	float: right;
 }
@@ -67,7 +81,7 @@ a:hover.icon-contanier{
 	color: #FF8200;
 }
 .icon-contanier{
-	width: 40px;
+	width: 36px;
 	text-align: center;
 }
 .icon{
@@ -75,10 +89,11 @@ a:hover.icon-contanier{
 	height: 25px;
 	border-radius: 5px;
 	background: #FF8200;
+	position: relative;
 }
 .icon-text{
 	margin-top: 5px;
-	font-size: 13px;
+	font-size: 12px;
 }
 .liuliang{
 	background-image: url('../images/liuliang-icon.png');
@@ -100,7 +115,29 @@ a:hover.icon-contanier{
 	background-repeat: no-repeat;
 	background-position: center;
 }
-
+.plus{
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	width: 10px;
+	height: 10px;
+	background: #FF8200 url('../images/plus.png') center center no-repeat;
+	border-radius: 5px;
+}
+.notification{
+	position: absolute;
+	right: -6px;
+	top: -3px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	background: #ff4542;
+	border-radius: 8px;
+	opacity: 0.9;
+	color: white;
+	font-size: 10px;
+}
 .progressbar{
 	height: 6px;
 	background: #D8D8D8;
@@ -120,15 +157,7 @@ a:hover.icon-contanier{
 	position: relative;
 	font-size: 13px;
 }
-.down{
-	background: url('../images/down.png') no-repeat center;
-	position: absolute;
-	right: 5px;
-	top: 5px;
-	width: 20px;
-	height: 20px;
-	cursor: pointer;
-}
+
 .up{
 	background: url('../images/up.png') no-repeat center;
 	position: absolute;
@@ -138,10 +167,25 @@ a:hover.icon-contanier{
 	height: 20px;
 	cursor: pointer;
 }
+.down{
+	background: url('../images/down.png') no-repeat center;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
 .tip-detail{
 	padding: 10px 30px;
-	font-size: 13px;
 	background: #EBE8E8;
+	border-top: solid 1px #D8D8D8;
+	font-size: 13px;
+}
+.tip-content{
+	width: calc(100%-50px);
+	overflow: hidden;
+	white-space:nowrap;
 }
 .package{
 	color: #FF8200;
@@ -160,23 +204,74 @@ a:hover.icon-contanier{
 	cursor: pointer;
 }
 
-@media (max-width: 468px) {
+.popup-container{
+    background: rgba(0,0,0,0.7);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+.popup{
+    background: white;
+    color: black;
+    font-size: 15px;
+    left: 50%;
+    margin-left: -150px;
+    min-height: 100px;
+    position: absolute;
+    top: 50px;
+    z-index: 1111;
+    border-radius: 5px;
+    width: 300px;
+}
+.popup p{
+	line-height: 25px;
+}
+.popup-title{
+	border-bottom: solid 1px #ccc;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 10px;
+}
+.popup-content{
+	padding: 10px;
+}
+.popup ul li{
+	list-style: none;
+	padding: 5px 0;
+}
+.popup-button{
+	width: 100%;
+}
+.popup-button div{
+	width: 150px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	border: none;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+}
+.popup-button div.cancle{
+	background: #D8D8D8;
+	border-bottom-left-radius: 5px;
+	color: #4A4A4A;
+}
+.popup-button div.submit{
+	background: #FF8200;
+	border-bottom-right-radius: 5px;
+	color: white;
+}
+a:link,a:visited{
+	color: #4097F0;
+}
+
+@media (max-width: 360px) {
 	.ad{
 		display: none !important;
 	}
-}
-@media (min-width: 768px) {
-	.ad{
-		display: inline-block !important;
-	}
-}
-@media (min-width: 992px) {
-	.ad{
-		display: inline-block !important;
-	}
-}
-@media (min-width: 1200px) {
-	.ad{
-		display: inline-block !important;
-	}
+	
 }
