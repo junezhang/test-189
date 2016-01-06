@@ -31,7 +31,7 @@ body{
   	justify-content: space-between;
 }
 .logo{
-	width: 20%;
+	width: 15%;
 }
 .logo img{
 	width: 50px;
@@ -80,7 +80,7 @@ body{
 .icons{
 	float: right;
 	min-width: 144px;
-	width: 40%;
+	width: 45%;
 	display: -webkit-flex !important;
 	display: flex !important;
   	flex-flow: row wrap;
