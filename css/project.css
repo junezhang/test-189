@@ -24,7 +24,12 @@ body{
 .banner{
 	padding: 0 0 0 3px;
 	height: 48px;
+	display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-between;
 }
+
 .logo img{
 	width: 50px;
 }
@@ -46,7 +51,8 @@ body{
 	margin-left: 5px;
 }
 .ad{
-	width: calc(100% - 280px);
+	min-width: 76px;
+	width: 20%;
 }
 .ad-container{
 	border-radius: 5px;
@@ -66,6 +72,12 @@ body{
 }
 .icons{
 	float: right;
+	min-width: 144px;
+	width: 40%;
+	display: flex !important;
+  	flex-flow: row wrap;
+  	align-items: stretch;
+  	justify-content: space-between;
 }
 .icons div,
 .icons a
