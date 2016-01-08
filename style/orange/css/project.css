@@ -1,0 +1,305 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.module{
+	margin: 3px 0 0 0;
+	padding: 0;
+}
+.banner,
+.progressbar,
+.tip{
+	width: 100%;
+	box-sizing:border-box;
+}
+.banner{
+	padding: 0 11px 0 3px;
+	height: 48px;
+}
+.logo,
+.analysis,
+.ad,
+.icons
+{
+	display: inline-block;
+}
+
+.logo img{
+	width: 50px;
+	margin-top: 8px;
+}
+.analysis{
+	margin-left: 0px;
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+.analysis-container{
+	width: 60px;
+}
+.analysis .remain{
+	color: #62C751;
+}
+.analysis .used{
+	border-top: solid 1px #979797;
+	margin-top: -1px;
+}
+
+.ad{
+	min-width: 76px;
+	margin-top: 5px;
+	vertical-align:top;
+	float: right;
+	margin-right: 10px;
+}
+.ad-container{
+	border-radius: 5px;
+	background: #FFBA24;
+	color: white;
+	padding: 5px 0;
+	width: 100%;
+}
+.ad-box{
+	width: 100%;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 13px;
+}
+.icons{
+	float: right;
+	min-width: 116px;
+  	margin-top: 3px;
+}
+.icons a{
+	display: inline-block;
+	width: 30%;
+	text-align:center;
+}
+
+.icons a:link,
+.icons a:visited{
+	color: #222;
+	text-decoration: none;
+}
+.icon-contanier{
+	width: 36px;
+	text-align: center;
+}
+.icon{
+	width: 25px;
+	height: 25px;
+	border-radius: 5px;
+	background-color: #FF8200;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	margin-right: 5px;
+}
+.icon-text{
+	font-size: 12px;
+}
+.liuliang{
+	background-image: url('../images/liuliang-icon.png');
+}
+.cz{
+	background-image: url('../images/chongzhi-icon.png');
+}
+.xx{
+	background-image: url('../images/xiaoxi-icon.png');
+}
+.sz{
+	background-image: url('../images/setting-icon.png');
+}
+.close{
+	background: url('../images/close.png') no-repeat center;
+	background-size: cover;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	cursor: pointer;
+}
+.plus{
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	width: 10px;
+	height: 10px;
+	background: #FF8200 url('../images/plus.png') center center no-repeat;
+	border-radius: 5px;
+}
+.notification{
+	position: absolute;
+	right: -6px;
+	top: -3px;
+	min-width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	background: #ff4542;
+	border-radius: 8px;
+	opacity: 0.9;
+	color: white;
+	font-size: 10px;
+	padding: 0 2px;
+}
+.progressbar{
+	height: 6px;
+	background: #D8D8D8;
+}
+
+.progressbar-used{
+	background-image:-webkit-linear-gradient(to right, white, #FF8200);
+  	background-image:linear-gradient(to right, white, #FF8200);
+  	width: 60%;
+  	height: 6px;
+}
+.tip{
+	height: 30px;
+	line-height: 32px;
+	padding:0 30px;
+	background: url('../images/ic_face.png') #EBE8E8 no-repeat 10px center;
+	position: relative;
+	font-size: 13px;
+}
+
+.up{
+	background: url('../images/up.png') no-repeat center;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.down{
+	background: url('../images/down.png') no-repeat center;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.tip-detail{
+	padding: 10px 30px;
+	background: #EBE8E8;
+	border-top: solid 1px #D8D8D8;
+	font-size: 13px;
+}
+.tip-content{
+	width: calc(100%-50px);
+	overflow: hidden;
+	white-space:nowrap;
+}
+.package{
+	color: #FF8200;
+}
+.order-button{
+	background: #FF8200;
+	border-radius: 3px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 20px;
+	color: white;
+	text-align: center;
+	margin: 10px auto;
+	width: 100px;
+	display: block;
+	cursor: pointer;
+}
+
+.popup-container{
+    background: rgba(0,0,0,0.7);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+.popup{
+    background: white;
+    color: black;
+    font-size: 15px;
+    left: 50%;
+    margin-left: -150px;
+    min-height: 100px;
+    position: absolute;
+    top: 50px;
+    z-index: 1111;
+    border-radius: 5px;
+    width: 300px;
+}
+.popup p{
+	line-height: 25px;
+}
+.popup-title{
+	border-bottom: solid 1px #ccc;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 10px;
+}
+.popup-content{
+	padding: 10px;
+}
+.popup ul li{
+	list-style: none;
+	padding: 5px 0;
+}
+.popup-button{
+	width: 100%;
+}
+.popup-button div{
+	width: 150px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	border: none;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+}
+.popup-button div.cancle{
+	background: #D8D8D8;
+	border-bottom-left-radius: 5px;
+	color: #4A4A4A;
+}
+.popup-button div.submit{
+	background: #FF8200;
+	border-bottom-right-radius: 5px;
+	color: white;
+}
+
+a:link,a:visited{
+	color: #4097F0;
+}
+
+/*当页页宽度小于或等于360px*/
+@media (max-width: 460px) {
+	.logo{width: 50px;}
+	.analysis{	width: 57px;}
+	.ad{	width: 76px; margin-right: 2px;}
+	.icons{	width: 116px;}	
+	.icons a{ width: 36px;}
+	.remain-data,.used-data{margin-left: 0px;}
+}
+
+/*当页页宽度大于或者等于361*/
+@media (min-width: 461px){
+	.logo{width: 15%;}
+	.analysis{	width: 20%;}
+	.ad{	width: 20%;}
+	.icons{	width: 40%;}
+	.icons a{ width: 30%}
+	.remain-data,.used-data{margin-left: 5px;}
+}
+
+

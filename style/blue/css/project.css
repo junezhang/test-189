@@ -38,7 +38,7 @@ body{
 }
 
 .analysis-container{
-	width: 57px;
+	width: 60px;
 }
 .analysis .remain{
 	color: #62C751;
@@ -95,7 +95,7 @@ body{
 	width: 25px;
 	height: 25px;
 	border-radius: 5px;
-	background-color: #FF8200;
+	background-color: #1ba5e4;
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
@@ -132,7 +132,7 @@ body{
 	top: -3px;
 	width: 10px;
 	height: 10px;
-	background: #FF8200 url('../images/plus.png') center center no-repeat;
+	background: #1ba5e4 url('../images/plus.png') center center no-repeat;
 	border-radius: 5px;
 }
 .notification{
@@ -156,8 +156,8 @@ body{
 }
 
 .progressbar-used{
-	background-image:-webkit-linear-gradient(to right, white, #FF8200);
-  	background-image:linear-gradient(to right, white, #FF8200);
+	background-image:-webkit-linear-gradient(to right, white, #1ba5e4);
+  	background-image:linear-gradient(to right, white, #1ba5e4);
   	width: 60%;
   	height: 6px;
 }
@@ -200,10 +200,10 @@ body{
 	white-space:nowrap;
 }
 .package{
-	color: #FF8200;
+	color: #1ba5e4;
 }
 .order-button{
-	background: #FF8200;
+	background: #1ba5e4;
 	border-radius: 3px;
 	height: 30px;
 	line-height: 30px;
@@ -273,7 +273,7 @@ body{
 	color: #4A4A4A;
 }
 .popup-button div.submit{
-	background: #FF8200;
+	background: #1ba5e4;
 	border-bottom-right-radius: 5px;
 	color: white;
 }
