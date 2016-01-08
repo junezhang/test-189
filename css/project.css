@@ -39,7 +39,7 @@ body{
 }
 
 .analysis-container{
-	width: 60px;
+	width: 57px;
 }
 .analysis .remain{
 	color: #62C751;
@@ -291,7 +291,7 @@ a:link,a:visited{
 /*当页页宽度小于或等于360px*/
 @media (max-width: 460px) {
 	.logo{width: 50px;}
-	.analysis{	width: 60px;}
+	.analysis{	width: 57px;}
 	.ad{	width: 76px; margin-right: 2px;}
 	.icons{	width: 116px;}	
 	.icons a{ width: 36px;}
