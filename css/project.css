@@ -48,10 +48,7 @@ body{
 	border-top: solid 1px #979797;
 	margin-top: -1px;
 }
-.remain-data,
-.used-data{
-	margin-left: 5px;
-}
+
 .ad{
 	min-width: 76px;
 	margin-top: 5px;
@@ -294,9 +291,10 @@ a:link,a:visited{
 @media (max-width: 460px) {
 	.logo{width: 50px;}
 	.analysis{	width: 60px;}
-	.ad{	width: 76px;}
+	.ad{	width: 76px; margin-right: 2px;}
 	.icons{	width: 116px;}	
 	.icons a{ width: 36px;}
+	.remain-data,.used-data{margin-left: 0px;}
 }
 
 /*当页页宽度大于或者等于361*/
@@ -306,6 +304,7 @@ a:link,a:visited{
 	.ad{	width: 20%;}
 	.icons{	width: 40%;}
 	.icons a{ width: 30%}
+	.remain-data,.used-data{margin-left: 5px;}
 }
 
 
