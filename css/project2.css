@@ -1,9 +1,9 @@
-*{
-	box-sizing:border-box;
-}
 body{
 	margin: 0;
 	padding: 0;
+}
+*{
+	box-sizing:border-box;
 }
 .module{
 	margin: 3px 0 0 0;
@@ -99,9 +99,6 @@ body{
 	width: 33%
 }
 
-.icons a:hover{
-	color: #FF8200;
-}
 .icon-contanier{
 	width: 36px;
 	text-align: center;
