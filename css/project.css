@@ -18,24 +18,23 @@ body{
 .banner{
 	padding: 0 16px 0 3px;
 	height: 48px;
-	display: -webkit-flex !important;
-	display: flex !important;
-  	flex-flow: row wrap;
-  	align-items: stretch;
-  	justify-content: space-between;
 }
-.logo{
-	width: 15%;
+.logo,
+.analysis,
+.ad,
+.icons
+{
+	display: inline-block;
 }
+
 .logo img{
 	width: 50px;
 	margin-top: 8px;
 }
 .analysis{
-	width: 20%;
 	margin-left: 0px;
 	font-size: 13px;
-	margin-top: 8px;
+	margin-top: 5px;
 }
 
 .analysis-container{
@@ -54,7 +53,10 @@ body{
 }
 .ad{
 	min-width: 76px;
-	width: 20%;
+	margin-top: 5px;
+	vertical-align:top;
+	float: right;
+	margin-right: 10px;
 }
 .ad-container{
 	border-radius: 5px;
@@ -74,17 +76,12 @@ body{
 }
 .icons{
 	float: right;
-	min-width: 144px;
-	width: 45%;
-	display: -webkit-flex !important;
-	display: flex !important;
-  	flex-flow: row wrap;
-  	align-items: stretch;
-  	justify-content: space-between;
+	min-width: 116px;
   	margin-top: 3px;
 }
 .icons a{
-	width: 25%;
+	display: inline-block;
+	width: 30%;
 	text-align:center;
 }
 
@@ -92,15 +89,6 @@ body{
 .icons a:visited{
 	color: #222;
 	text-decoration: none;
-}
-
-.closed .icons a:link,
-.closed .icons a:visited{
-	width: 33%
-}
-
-.icons a:hover{
-	color: #FF8200;
 }
 .icon-contanier{
 	width: 36px;
@@ -116,7 +104,6 @@ body{
 }
 .icon-text{
 	font-size: 12px;
-	margin-top: 3px;
 }
 .liuliang{
 	background-image: url('../images/liuliang-icon.png');
@@ -303,15 +290,21 @@ a:link,a:visited{
 }
 
 /*当页页宽度小于或等于360px*/
-@media screen and (max-width: 460px) {
-	
-	
+@media (max-width: 460px) {
+	.logo{width: 50px;}
+	.analysis{	width: 60px;}
+	.ad{	width: 76px;}
+	.icons{	width: 116px;}	
+	.icons a{ width: 36px;}
 }
 
 /*当页页宽度大于或者等于361*/
-@media screen and (min-width: 461px){
-	
-
+@media (min-width: 461px){
+	.logo{width: 15%;}
+	.analysis{	width: 20%;}
+	.ad{	width: 20%;}
+	.icons{	width: 40%;}
+	.icons a{ width: 30%}
 }
 
-*/
+
