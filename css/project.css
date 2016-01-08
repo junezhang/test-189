@@ -125,6 +125,7 @@ body{
 }
 .close{
 	background: url('../images/close.png') no-repeat center;
+	background-size: cover;
 	width: 10px;
 	height: 10px;
 	position: absolute;
