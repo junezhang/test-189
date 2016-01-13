@@ -6,7 +6,7 @@ body{
 	padding: 0;
 }
 .module{
-	margin: 3px 0 0 0;
+	margin: 0;
 	padding: 0;
 }
 .banner,
@@ -18,6 +18,8 @@ body{
 .banner{
 	padding: 0 11px 0 3px;
 	height: 48px;
+	background-color: #D71E13;
+	color: white;
 }
 .logo,
 .analysis,
@@ -84,7 +86,7 @@ body{
 
 .icons a:link,
 .icons a:visited{
-	color: #222;
+	color: #fff;
 	text-decoration: none;
 }
 .icon-contanier{
@@ -132,7 +134,7 @@ body{
 	top: -3px;
 	width: 10px;
 	height: 10px;
-	background: #FF8200 url('../images/plus.png') center center no-repeat;
+	background: #D71E13 url('../images/plus.png') center center no-repeat;
 	border-radius: 5px;
 }
 .notification{
@@ -156,8 +158,8 @@ body{
 }
 
 .progressbar-used{
-	background-image:-webkit-linear-gradient(to right, white, #FF8200);
-  	background-image:linear-gradient(to right, white, #FF8200);
+	background-image:-webkit-linear-gradient(to right, white, #D71E13);
+  	background-image:linear-gradient(to right, white, #D71E13);
   	width: 60%;
   	height: 6px;
 }
@@ -205,10 +207,10 @@ body{
 	white-space:nowrap;
 }
 .package{
-	color: #FF8200;
+	color: #D71E13;
 }
 .order-button{
-	background: #FF8200;
+	background: #D71E13;
 	border-radius: 3px;
 	height: 30px;
 	line-height: 30px;
@@ -278,7 +280,7 @@ body{
 	color: #4A4A4A;
 }
 .popup-button div.submit{
-	background: #FF8200;
+	background: #D71E13;
 	border-bottom-right-radius: 5px;
 	color: white;
 }

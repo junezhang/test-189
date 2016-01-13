@@ -6,7 +6,7 @@ body{
 	padding: 0;
 }
 .module{
-	margin: 3px 0 0 0;
+	margin: 0;
 	padding: 0;
 }
 .banner,
@@ -95,9 +95,9 @@ body{
 	width: 25px;
 	height: 25px;
 	border-radius: 5px;
-	background-color: #1ba5e4;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 	position: relative;
 	margin-right: 5px;
 }
@@ -105,13 +105,13 @@ body{
 	font-size: 12px;
 }
 .liuliang{
-	background-image: url('../images/liuliang-icon.png');
+	background-image: url('../images/liuliang.png');
 }
 .cz{
-	background-image: url('../images/chongzhi-icon.png');
+	background-image: url('../images/chongzhi.png');
 }
 .xx{
-	background-image: url('../images/xiaoxi-icon.png');
+	background-image: url('../images/xiaoxi.png');
 }
 .sz{
 	background-image: url('../images/setting-icon.png');
@@ -164,10 +164,15 @@ body{
 .tip{
 	height: 30px;
 	line-height: 32px;
-	padding:0 30px;
-	background: url('../images/ic_face.png') #EBE8E8 no-repeat 10px center;
+	padding:0 10px;
+	background: #EBE8E8 no-repeat 10px center;
 	position: relative;
 	font-size: 13px;
+}
+.tip img{
+	height: 25px;
+	margin-top: 2px;
+	vertical-align: top;
 }
 
 .up{
