@@ -158,8 +158,8 @@ body{
 }
 
 .progressbar-used{
-	background-image:-webkit-linear-gradient(to right, white, #D71E13);
-  	background-image:linear-gradient(to right, white, #D71E13);
+	background-image:-webkit-linear-gradient(to right, white, #FF5C2B);
+  	background-image:linear-gradient(to right, white, #FF5C2B);
   	width: 60%;
   	height: 6px;
 }
