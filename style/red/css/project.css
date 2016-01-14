@@ -44,7 +44,7 @@ img{
 }
 
 .analysis-container{
-	width: 65px;
+	width: 60px;
 }
 .analysis .remain{
 	color: #62C751;
@@ -134,13 +134,12 @@ img{
 }
 
 .progressbar-used{
-  	background: url('../images/jb.png') no-repeat center cover;
-	background: -webkit-gradient(linear, to right, color-stop(0%,#fff), color-stop(100%,#FF5C2B)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(to right, #fff, #FF5C2B); /* Chrome10+,Safari5.1+ */
-	background: -moz-linear-gradient(to right,  #fff 0%, #FF5C2B 100%); /* FF3.6+ */
-	background: -o-linear-gradient(to right,  #fff 0%,#FF5C2B 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(to right,  #fff 0%,#FF5C2B 100%); /* IE10+ */
-	background: linear-gradient(to right,  #fff 0%,#FF5C2B 100%); /* W3C */
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#ffffff,endColorStr=#FF5C2B); /*IE*/ 
+ 	background:-moz-linear-gradient(right,#FF5C2B,#fff);/*火狐*/ 
+ 	background:-webkit-gradient(linear, 100% 100%, 0% 0%,from(#FF5C2B), to(#fff));/*谷歌*/ 	
+ 	background-image: -webkit-gradient(linear,left right,bottom top,color-start(0, #FF5C2B),color-stop(1, #ffffff));/* Safari & Chrome*/
+ 	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#FF5C2B'); /*IE6 & IE7*/
+ 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#ffffff', endColorstr='#FF5C2B')"; /* IE8 */
 
   	width: 60%;
   	height: 6px;
