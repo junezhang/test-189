@@ -171,7 +171,7 @@ body{
 	padding: 10px 30px;
 	background: #EBE8E8;
 	border-top: solid 1px #D8D8D8;
-	font-size: 13px;
+	font-size: 13px !important;
 }
 .tip-content{
 	width: calc(100%-50px);
