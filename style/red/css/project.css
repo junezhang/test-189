@@ -32,7 +32,7 @@ img{
 .ad,
 .icons
 {
-	display: inline-block;
+	display: inline-flex;
 	vertical-align: top;
 }
 
@@ -278,17 +278,17 @@ a:link,a:visited{
 .remain-data,.used-data{margin-left: 5px;}
 
 /*当页页宽度小于或等于360px*/
-@media (max-width: 400px) {
+@media (max-width: 410px) {
 	.logo{width: 50px;}
 	.analysis{	width: 57px;}
 	.ad{	width: 100px; margin-right: 2px;}
-	.icons{	width: 116px;}	
+	.icons{	width: 116px; float: right;}	
 	.icons a{ width: 36px;}
 	.remain-data,.used-data{margin-left: 0px;}
 }
 
 /*当页页宽度大于或者等于361*/
-@media (min-width: 401px){
+@media (min-width: 411px){
 	.logo{width: 15%;}
 	.analysis{	width: 18%;}
 	.ad{	width: 22%;}
