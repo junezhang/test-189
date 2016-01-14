@@ -127,8 +127,13 @@ body{
 }
 
 .progressbar-used{
-	background-image:-webkit-linear-gradient(to right, white, #1ba5e4);
-  	background-image:linear-gradient(to right, white, #1ba5e4);
+  	background: -moz-linear-gradient(to right,  #fff 0%, #1ba5e4 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, to right, color-stop(0%,#fff), color-stop(100%,#1ba5e4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(to right, #fff, #1ba5e4); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(to right,  #fff 0%,#1ba5e4 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(to right,  #fff 0%,#1ba5e4 100%); /* IE10+ */
+	background: linear-gradient(to right,  #fff 0%,#1ba5e4 100%); /* W3C */
+
   	width: 60%;
   	height: 6px;
 }
