@@ -269,6 +269,12 @@ img{
 a:link,a:visited{
 	color: #4097F0;
 }
+.logo{width: 15%;}
+.analysis{	width: 20%;}
+.ad{	width: 20%;}
+.icons{	width: 40%;}
+.icons a{ width: 30%}
+.remain-data,.used-data{margin-left: 5px;}
 
 /*当页页宽度小于或等于360px*/
 @media (max-width: 460px) {
