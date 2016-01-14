@@ -18,6 +18,8 @@ img{
 .tip{
 	width: 100%;
 	box-sizing:border-box;
+	min-width: 350px;
+	
 }
 .banner{
 	padding: 0 11px 0 3px;
@@ -31,6 +33,7 @@ img{
 .icons
 {
 	display: inline-block;
+	vertical-align: top;
 }
 
 .logo img{
@@ -40,7 +43,7 @@ img{
 .analysis{
 	margin-left: 0px;
 	font-size: 13px;
-	margin-top: 5px;
+	margin-top: 8px;
 }
 
 .analysis-container{
@@ -58,14 +61,12 @@ img{
 	min-width: 76px;
 	margin-top: 5px;
 	vertical-align:top;
-	float: right;
 	margin-right: 10px;
 }
 .ad img{
 	height: 40px;
 }
 .icons{
-	float: right;
 	min-width: 116px;
   	margin-top: 3px;
 }
@@ -270,27 +271,27 @@ a:link,a:visited{
 	color: #4097F0;
 }
 .logo{width: 15%;}
-.analysis{	width: 20%;}
-.ad{	width: 20%;}
+.analysis{	width: 18%;}
+.ad{	width: 22%;}
 .icons{	width: 40%;}
 .icons a{ width: 30%}
 .remain-data,.used-data{margin-left: 5px;}
 
 /*当页页宽度小于或等于360px*/
-@media (max-width: 460px) {
+@media (max-width: 400px) {
 	.logo{width: 50px;}
 	.analysis{	width: 57px;}
-	.ad{	width: 76px; margin-right: 2px;}
+	.ad{	width: 100px; margin-right: 2px;}
 	.icons{	width: 116px;}	
 	.icons a{ width: 36px;}
 	.remain-data,.used-data{margin-left: 0px;}
 }
 
 /*当页页宽度大于或者等于361*/
-@media (min-width: 461px){
+@media (min-width: 401px){
 	.logo{width: 15%;}
-	.analysis{	width: 20%;}
-	.ad{	width: 20%;}
+	.analysis{	width: 18%;}
+	.ad{	width: 22%;}
 	.icons{	width: 40%;}
 	.icons a{ width: 30%}
 	.remain-data,.used-data{margin-left: 5px;}
