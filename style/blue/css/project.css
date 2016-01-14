@@ -55,21 +55,8 @@ body{
 	float: right;
 	margin-right: 10px;
 }
-.ad-container{
-	border-radius: 5px;
-	background: #FFBA24;
-	color: white;
-	padding: 5px 0;
-	width: 100%;
-}
-.ad-box{
-	width: 100%;
-	border-top: solid 1px #fff;
-	border-bottom: solid 1px #fff;
-	height: 30px;
-	line-height: 30px;
-	text-align: center;
-	font-size: 13px;
+.ad img{
+	height: 40px;
 }
 .icons{
 	float: right;
@@ -99,22 +86,15 @@ body{
 	background-position: center;
 	background-size: cover;
 	position: relative;
-	margin-right: 5px;
+	margin:1px auto;
 }
 .icon-text{
 	font-size: 12px;
+	margin-top: 3px;
 }
-.liuliang{
-	background-image: url('../images/liuliang.png');
-}
-.cz{
-	background-image: url('../images/chongzhi.png');
-}
-.xx{
-	background-image: url('../images/xiaoxi.png');
-}
-.sz{
-	background-image: url('../images/setting-icon.png');
+.icon img{
+	width: 26px;
+	height: 26px;
 }
 .close{
 	background: url('../images/close.png') no-repeat center;
@@ -125,15 +105,6 @@ body{
 	right: 1px;
 	top: 1px;
 	cursor: pointer;
-}
-.plus{
-	position: absolute;
-	left: -3px;
-	top: -3px;
-	width: 10px;
-	height: 10px;
-	background: #1ba5e4 url('../images/plus.png') center center no-repeat;
-	border-radius: 5px;
 }
 .notification{
 	position: absolute;
