@@ -32,7 +32,7 @@ img{
 .ad,
 .icons
 {
-	display: inline-flex;
+	display: inline-block;
 	vertical-align: top;
 }
 
