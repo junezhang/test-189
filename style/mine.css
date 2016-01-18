@@ -161,7 +161,7 @@ table tr:nth-child(3) td:nth-child(1){
 	display: inline-block;
 }
 .left-menu ul{
-	margin-left: -35px;
+	margin-left: -40px;
 }
 .left-menu ul li{
 	list-style: none;
@@ -195,13 +195,13 @@ table tr:nth-child(3) td:nth-child(1){
 
 .dashboard{
 	display: inline-block;
-	width: 30%;
+	width: calc(100% - 150px);
 	min-height: 100px;
 	vertical-align: text-bottom;
 }
 .items{
 	display: inline-block;
-	width: 69%;
+	width: 145px;
 }
 .items ul li{
 	list-style: none;
