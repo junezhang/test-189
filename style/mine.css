@@ -1,0 +1,277 @@
+*{
+	box-sizing:border-box;
+	-webkit-text-size-adjust:none;
+	-moz-text-size-adjust:none;
+	-ms-text-size-adjust:none;
+	-test-size-adjust:none;
+}
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: url('images/body-bg.jpg') no-repeat center;
+	background-size: cover;
+}
+img{
+	border: 0px;
+}
+.logo, .mine-number{
+	display: inline-block;
+}
+.logo img{
+	height: 45px;
+	margin: 3px 0 0 5px;
+}
+.mine-number{
+	color: white;
+	height: 50px;
+	line-height: 50px;
+	width: calc(100% - 100px);
+	text-align: center;
+	vertical-align: top;
+}
+.container{
+	margin: 0 1px;
+	background: url('images/container-bg.png') no-repeat;
+	padding: 10px 0;
+}
+.content{
+	width: 90%;
+	margin: 10px auto;
+}
+
+.welcome{
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#fcd954,endColorStr=#e37221); /*IE*/ 
+ 	background:-moz-linear-gradient(#fcd954,#e37221);/*火狐*/ 
+ 	background:-webkit-linear-gradient(#fcd954, #e37221);/*谷歌*/
+ 	background:-o-linear-gradient(#fcd954, #e37221);/*谷歌*/ 	
+ 	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#fcd954', endColorstr='#e37221'); /*IE6 & IE7*/
+ 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#fcd954', endColorstr='#e37221')"; /* IE8 */
+
+ 	display: inline-block;
+ 	border-radius: 3px;
+ 	box-shadow: 1px 2px 2px #888;
+ 	width: 60%;
+ 	padding: 10px;
+ 	float: left;
+ 	height: 130px;
+}
+.date{
+	background: rgba(255,255,255,0.3);
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	padding: 5px;
+	color: #c1451a;
+	position: relative;
+	margin-bottom: 10px;
+}
+.month{
+	font-size: 35px;
+	position: absolute;
+	left: 5px;
+	top: -9px;
+}
+.year{
+	font-size: 14px;
+	margin-left: 20px;
+}
+.wel-text{
+	background: rgba(255,255,255,0.3);
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	padding: 5px;
+	color: #c1451a;
+	margin-bottom: 10px;
+}
+table, th, td {
+    border: 0x solid black;
+    border-collapse: collapse;
+}
+
+table{
+	width: 100%;
+}
+table td:nth-child(1){
+	color: #c1451a;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px 0;
+}
+table td:nth-child(2){
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px 0;
+}
+.balance{
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#2d9cf5,endColorStr=#1568b1); /*IE*/ 
+ 	background:-moz-linear-gradient(#2d9cf5,#1568b1);/*火狐*/ 
+ 	background:-webkit-linear-gradient(#2d9cf5, #1568b1);/*谷歌*/
+ 	background:-o-linear-gradient(#2d9cf5, #1568b1);/*谷歌*/ 	
+ 	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#2d9cf5', endColorstr='#1568b1'); /*IE6 & IE7*/
+ 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#2d9cf5', endColorstr='#1568b1')"; /* IE8 */
+
+ 	font-size: 20px;
+ 	text-align: center;
+
+ 	display: inline-block;
+ 	border-radius: 3px;
+ 	box-shadow: 1px 2px 2px #888;
+ 	padding: 30px;
+ 	color: white;
+ 	float: left;
+ 	width: 35%;
+ 	margin-left: 5%;
+ 	height: 130px;
+}
+.bal-data{
+	margin: 20px auto;
+	color: #dcfe56;
+}
+.clear{
+	clear: both;
+}
+.content-ad{
+	background: #227ac4;
+	border-radius: 3px;
+	padding: 5px;
+	box-shadow: 1px 2px 2px #888;
+	color: white;
+	text-align: center;
+}
+
+.tab-content{
+	background: url('images/tab-bg.jpg') repeat;
+}
+
+.left-menu{
+	width: 60px;
+	text-align: center;
+	display: inline-block;
+}
+.left-menu ul{
+	margin-left: -30px;
+}
+.left-menu ul li{
+	list-style: none;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	background: #1874c7;
+	margin-bottom: 1px;
+}
+.left-menu ul li.actived{
+	
+}
+.left-menu ul li.actived a{
+	
+}
+.left-menu ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.left-menu ul li a:actived{
+	color: #1874c7;
+}
+.right-content{
+	width: calc(100% - 70px);
+	display: inline-block;
+	height: 200px;
+	vertical-align: top;
+	padding: 10px 20px;
+}
+
+.dashboard{
+	display: inline-block;
+	width: 50%;
+	min-height: 100px;
+	vertical-align: text-bottom;
+}
+.items{
+	display: inline-block;
+	width: 45%;
+}
+.items ul li{
+	list-style: none;
+	margin: 10px 0;
+}
+.note{
+	font-size: 11px;
+	color: #aaa;
+}
+.operation{
+	width: 100%;
+	margin: 20px 0;
+	text-align: center;
+}
+button{
+	border-radius: 3px;
+ 	box-shadow: 1px 2px 2px #888;
+ 	color: #fff;
+ 	border: 0px;
+ 	height: 30px;
+ 	line-height: 30px;
+ 	text-align: center;
+ 	min-width: 140px;
+ 	margin: 0 10px;
+ 	cursor: pointer;
+}
+.detail-button{
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#96cbe6,endColorStr=#7fb8d8); /*IE*/ 
+ 	background:-moz-linear-gradient(#96cbe6,#7fb8d8);/*火狐*/ 
+ 	background:-webkit-linear-gradient(#96cbe6, #7fb8d8);/*谷歌*/
+ 	background:-o-linear-gradient(#96cbe6, #7fb8d8);/*谷歌*/ 	
+ 	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#96cbe6', endColorstr='#7fb8d8'); /*IE6 & IE7*/
+ 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#96cbe6', endColorstr='#7fb8d8')"; /* IE8 */
+	
+}
+.detail-button:hover{
+	background: #7fb8d8;
+}
+.buy-button{
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ecc44e,endColorStr=#e67622); /*IE*/ 
+ 	background:-moz-linear-gradient(#ecc44e,#e67622);/*火狐*/ 
+ 	background:-webkit-linear-gradient(#ecc44e, #e67622);/*谷歌*/
+ 	background:-o-linear-gradient(#ecc44e, #e67622);/*谷歌*/ 	
+ 	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ecc44e', endColorstr='#e67622'); /*IE6 & IE7*/
+ 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ecc44e', endColorstr='#e67622')"; /* IE8 */
+}
+.buy-button:hover{
+	background: #e67622;
+}
+
+
+
+
+.ui-tabs-vertical { width: 100% }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { background: none; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active a{ color: #1874c7;}
+
+footer{
+	text-align: center;
+	padding: 5px 0;
+	color: #fff;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+
+}
+
+
+
+
+/*当页页宽度小于或等于360px*/
+@media (max-width: 410px) {
+	
+}
+
+/*当页页宽度大于或者等于361*/
+@media (min-width: 411px){
+	
+}
+
