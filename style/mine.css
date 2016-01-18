@@ -147,12 +147,12 @@ table td:nth-child(2){
 }
 
 .left-menu{
-	width: 60px;
+	width: 50px;
 	text-align: center;
 	display: inline-block;
 }
 .left-menu ul{
-	margin-left: -30px;
+	margin-left: -35px;
 }
 .left-menu ul li{
 	list-style: none;
@@ -215,7 +215,7 @@ button{
  	height: 30px;
  	line-height: 30px;
  	text-align: center;
- 	min-width: 140px;
+ 	padding: 0 10px;
  	margin: 0 10px;
  	cursor: pointer;
 }
