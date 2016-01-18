@@ -32,6 +32,10 @@ img{
 	text-align: center;
 	vertical-align: top;
 }
+.mine-number a{
+	color: #fff;
+	text-decoration: none;
+}
 .container{
 	margin: 0 1px;
 	background: url('images/container-bg.png') no-repeat;
