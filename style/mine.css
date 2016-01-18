@@ -109,6 +109,10 @@ table td:nth-child(2){
 	font-weight: bold;
 	padding: 5px 0;
 }
+table tr:nth-child(2) td:nth-child(1),
+table tr:nth-child(3) td:nth-child(1){
+	font-size: 11px;
+}
 .balance{
 	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#2d9cf5,endColorStr=#1568b1); /*IE*/ 
  	background:-moz-linear-gradient(#2d9cf5,#1568b1);/*火狐*/ 
