@@ -186,13 +186,13 @@ table td:nth-child(2){
 
 .dashboard{
 	display: inline-block;
-	width: 50%;
+	width: 30%;
 	min-height: 100px;
 	vertical-align: text-bottom;
 }
 .items{
 	display: inline-block;
-	width: 45%;
+	width: 68%;
 }
 .items ul li{
 	list-style: none;
