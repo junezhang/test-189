@@ -74,10 +74,10 @@ img{
 	margin-bottom: 10px;
 }
 .month{
-	font-size: 20px;
+	font-size: 25px;
 	position: absolute;
 	left: 5px;
-	top: 0px;
+	top: -2px;
 }
 .year{
 	font-size: 13px;
@@ -87,7 +87,7 @@ img{
 	background: rgba(255,255,255,0.3);
 	border-top-right-radius:5px;
 	border-bottom-right-radius:5px;
-	padding: 5px;
+	padding: 3px;
 	color: #c1451a;
 	margin-bottom: 10px;
 }
